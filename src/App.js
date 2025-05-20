@@ -27,9 +27,9 @@ const AppRouter = () =>{
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<AppLayout/>}>
-      <Route path='/' element={<Body/>}></Route>   
-      <Route path='/restaurant/:resId' element={<RestaurantMenu/>}></Route>
-      <Route path='/cart' element={<Cart/>}></Route>
+      <Route path='' element={<Body/>}></Route>   
+      <Route path='restaurant/:resId' element={<RestaurantMenu/>}></Route>
+      <Route path='cart' element={<Cart/>}></Route>
 
     </Route>
     
