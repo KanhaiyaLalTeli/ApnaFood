@@ -732,11 +732,11 @@ const AppRouter = ()=>{
                     }, void 0),
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
-                            path: "/",
+                            path: "",
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 30,
-                                columnNumber: 32
+                                columnNumber: 31
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
@@ -744,11 +744,11 @@ const AppRouter = ()=>{
                             columnNumber: 7
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
-                            path: "/restaurant/:resId",
+                            path: "restaurant/:resId",
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantMenuDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 31,
-                                columnNumber: 49
+                                columnNumber: 48
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
@@ -756,11 +756,11 @@ const AppRouter = ()=>{
                             columnNumber: 7
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
-                            path: "/cart",
+                            path: "cart",
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cartDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 32,
-                                columnNumber: 36
+                                columnNumber: 35
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
