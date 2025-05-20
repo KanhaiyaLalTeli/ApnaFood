@@ -1,0 +1,25 @@
+{
+  "name": "apnafood",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KanhaiyaLalTeli/ApnaFood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KanhaiyaLalTeli/ApnaFood/issues"
+  },
+  "homepage": "https://github.com/KanhaiyaLalTeli/ApnaFood#readme",
+  "devDependencies": {
+    "parcel": "^2.15.1"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
