@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/KanhaiyaLalTeli/ApnaFood",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "parcel": "^2.15.1"
   },
   "dependencies": {
