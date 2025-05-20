@@ -24,10 +24,10 @@ const AppLayout = () => {
 
 const AppRouter = () =>{
   return (<>
-  <BrowserRouter>
+  <BrowserRouter basename="/ApnaFood">
   <Routes>
     <Route path="/" element={<AppLayout/>}>
-      <Route path='' element={<Body/>}></Route>   
+      <Route index element={<Body/>}></Route>   
       <Route path='restaurant/:resId' element={<RestaurantMenu/>}></Route>
       <Route path='cart' element={<Cart/>}></Route>
 
