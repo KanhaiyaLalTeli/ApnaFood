@@ -30202,7 +30202,9 @@ const MenuItemCard = ({ item })=>{
         if (item2.noOfItems > 0) dispatch((0, _cartSlice.removeItem)(item2));
     };
     const item1 = items.find((ele)=>ele.card.info.id == id);
-    if (item1 !== undefined) item.noOfItems = item1.noOfItems;
+    if (item1 !== undefined) {
+        const noOfItems1 = item1?.noOfItems || 0;
+    }
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "flex justify-between p-2 pb-6 gap-1 border-gray-300 border-b-2 sm:p-4 sm:m-2 sm:pb-10",
         children: [
@@ -30214,7 +30216,7 @@ const MenuItemCard = ({ item })=>{
                         children: name
                     }, void 0, false, {
                         fileName: "src/components/MenuItemCard.js",
-                        lineNumber: 34,
+                        lineNumber: 33,
                         columnNumber: 6
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
@@ -30225,7 +30227,7 @@ const MenuItemCard = ({ item })=>{
                         ]
                     }, void 0, true, {
                         fileName: "src/components/MenuItemCard.js",
-                        lineNumber: 35,
+                        lineNumber: 34,
                         columnNumber: 6
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30233,13 +30235,13 @@ const MenuItemCard = ({ item })=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/components/MenuItemCard.js",
-                        lineNumber: 36,
+                        lineNumber: 35,
                         columnNumber: 6
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/MenuItemCard.js",
-                lineNumber: 33,
+                lineNumber: 32,
                 columnNumber: 5
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30251,7 +30253,7 @@ const MenuItemCard = ({ item })=>{
                             src: (0, _constant.RES_LOGO) + imageId
                         }, void 0, false, {
                             fileName: "src/components/MenuItemCard.js",
-                            lineNumber: 40,
+                            lineNumber: 39,
                             columnNumber: 6
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -30263,14 +30265,14 @@ const MenuItemCard = ({ item })=>{
                                     children: "-"
                                 }, void 0, false, {
                                     fileName: "src/components/MenuItemCard.js",
-                                    lineNumber: 44,
+                                    lineNumber: 43,
                                     columnNumber: 7
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                                    children: item1 && (item1.noOfItems || item.noOfItems)
+                                    children: item1 && (item1.noOfItems || noOfItems)
                                 }, void 0, false, {
                                     fileName: "src/components/MenuItemCard.js",
-                                    lineNumber: 46,
+                                    lineNumber: 45,
                                     columnNumber: 7
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -30279,19 +30281,19 @@ const MenuItemCard = ({ item })=>{
                                     children: "+"
                                 }, void 0, false, {
                                     fileName: "src/components/MenuItemCard.js",
-                                    lineNumber: 47,
+                                    lineNumber: 46,
                                     columnNumber: 7
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/MenuItemCard.js",
-                            lineNumber: 41,
+                            lineNumber: 40,
                             columnNumber: 7
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/MenuItemCard.js",
-                    lineNumber: 39,
+                    lineNumber: 38,
                     columnNumber: 27
                 }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: [
@@ -30300,7 +30302,7 @@ const MenuItemCard = ({ item })=>{
                             src: (0, _constant.RES_LOGO) + imageId
                         }, void 0, false, {
                             fileName: "src/components/MenuItemCard.js",
-                            lineNumber: 49,
+                            lineNumber: 48,
                             columnNumber: 14
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -30309,24 +30311,24 @@ const MenuItemCard = ({ item })=>{
                             children: "ADD"
                         }, void 0, false, {
                             fileName: "src/components/MenuItemCard.js",
-                            lineNumber: 50,
+                            lineNumber: 49,
                             columnNumber: 7
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/MenuItemCard.js",
-                    lineNumber: 49,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/MenuItemCard.js",
-                lineNumber: 38,
+                lineNumber: 37,
                 columnNumber: 6
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/MenuItemCard.js",
-        lineNumber: 32,
+        lineNumber: 31,
         columnNumber: 5
     }, undefined);
 };
