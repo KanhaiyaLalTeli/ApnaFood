@@ -18,9 +18,8 @@
   "bugs": {
     "url": "https://github.com/KanhaiyaLalTeli/ApnaFood/issues"
   },
-  "homepage": "https://github.com/KanhaiyaLalTeli/ApnaFood",
+  "homepage": "https://KanhaiyaLalTeli.github.io/ApnaFood",
   "devDependencies": {
-    "gh-pages": "^6.3.0",
     "parcel": "^2.15.1"
   },
   "dependencies": {
