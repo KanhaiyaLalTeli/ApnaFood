@@ -20,11 +20,10 @@ const MenuItemCard = ({item}) => {
         
     } 
 
-  
     const item1=items.find((ele) => ele.card.info.id==id);
     
       if(item1 !==undefined){
-      item.noOfItems=item1.noOfItems;
+      const noOfItems = item1?.noOfItems || 0;
     }
  
        
@@ -43,7 +42,7 @@ const MenuItemCard = ({item}) => {
         sm:-my-6 sm:mx-16 sm:w-48 sm:text-2xl sm:py-2 '>      
       <button className='text-2xl'
       onClick={()=>handleRemoveItem(item1)}>-</button>
-      <span>{ item1 && (item1.noOfItems || item.noOfItems) }</span>
+      <span>{ item1 && (item1.noOfItems || noOfItems) }</span>
       <button className='text-2xl'
       onClick={()=>handleAddItem(item)}>+</button></div></div>  :     
        (<div><img className='w-full h-32 rounded-lg sm:h-52' src={RES_LOGO + imageId}/>
