@@ -722,6 +722,7 @@ _c = AppLayout;
 const AppRouter = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.BrowserRouter), {
+            basename: "/ApnaFood",
             children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Routes), {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
                     path: "/",
@@ -732,11 +733,11 @@ const AppRouter = ()=>{
                     }, void 0),
                     children: [
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
-                            path: "",
+                            index: true,
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                                 fileName: "src/App.js",
                                 lineNumber: 30,
-                                columnNumber: 31
+                                columnNumber: 29
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/App.js",
