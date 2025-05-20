@@ -20,10 +20,15 @@
   },
   "homepage": "https://KanhaiyaLalTeli.github.io/ApnaFood",
   "devDependencies": {
-    "parcel": "^2.15.1"
+    "parcel": "^2.15.1",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "react-redux": "^9.2.0",
+    "react-router": "^7.6.0"
   }
 }
